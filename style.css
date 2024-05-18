@@ -67,11 +67,16 @@ body {
 
 }
 
-img {
+.apresentacao__imagem {
+    max-width: 40%; /* Defina o tamanho da imagem conforme necessário */
+}
+
+.apresentacao__imagem {
     max-width: 100%;
     transition: border-color 0.3s ease;
 }
-img:hover {
+
+.apresentacao__imagem:hover {
     border: 2px solid #22D4FD;
     border-radius: 10px;
 }
